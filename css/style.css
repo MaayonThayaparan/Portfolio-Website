@@ -1387,15 +1387,28 @@ input[type="text"] {
       background-size: cover;
   }
 
-  /* Reduce the height of the navbar */
-  .navbar {
-      padding-top: 5px;
-      padding-bottom: 5px;
-  }
-
   /* Adjust navbar brand font size for better fit */
   .navbar-brand {
       font-size: 18px;
+  }
+
+  /* Vertically center content within the header */
+  .display-t {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding-top: 20px; /* Adjust as needed for more spacing */
+  }
+
+  .profile-thumb {
+      margin-top: 20px; /* Space from the navbar */
+  }
+    /* Adjust the icon's size if needed */
+  .profile-thumb {
+      background-size: contain;
+      width: 120px;
+      height: 120px;
   }
 
 }
