@@ -1381,6 +1381,29 @@ input[type="text"] {
       margin-bottom: 1em; /* Reduces bottom space between rows */
   }
 
+  /* Full height background image for header */
+  #fh5co-header {
+      height: 100vh !important;
+      background-size: cover;
+  }
+
+  /* Reduce the height of the navbar */
+  .navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  /* Adjust navbar brand font size for better fit */
+  .navbar-brand {
+      font-size: 18px;
+  }
+
+}
+
+/* General Styles */
+#fh5co-header {
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center;
 }
 
 
