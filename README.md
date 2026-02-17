@@ -2,5 +2,5 @@
 
 ## Description
 
-Check out my Software Engineering Portfolio! 
+Check out my Engineering Portfolio! 
 [https://www.maayon.dev](https://www.maayon.dev)
